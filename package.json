@@ -4,7 +4,8 @@
   "description": "- [About](#about)\r - [Getting Started](#getting_started)\r - [Usage](#usage)\r - [Contributing](../CONTRIBUTING.md)",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dist_root": "git subtree push --prefix dist origin gh-pages"
   },
   "author": "",
   "license": "ISC",
